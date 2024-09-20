@@ -42,6 +42,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <EditText
+                android:paddingStart="10dp"
+                android:textColorHint="@color/gray"
+                android:hint="name"
                 android:id="@+id/firstEditText"
                 android:layout_marginTop="30dp"
                 android:textColor="@color/black"
@@ -53,6 +56,9 @@
                 android:layout_width="300dp"
                 android:layout_height="50dp"/>
             <EditText
+                android:paddingStart="10dp"
+                android:textColorHint="@color/gray"
+                android:hint="password"
                 android:id="@+id/secondEditText"
                 android:textColor="@color/black"
                 android:layout_marginTop="20dp"
